@@ -112,7 +112,7 @@ img {
     margin-left: 90px;
 }
 
-.contacts-list {
+.contacts-list{
     display: flex;
     align-items: center;
     gap: 50px;
@@ -121,6 +121,8 @@ img {
 
 
 .contact-link {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -227,7 +229,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 270px;
     height: 120px;
     margin-bottom: 30px;
     background: #F5F4FA;
@@ -332,7 +333,6 @@ img {
     align-items: center;
     justify-content: center;
     height: 92px;
-    width: 170px;
     color: var(--primary-icon-colour);
     border: solid 1px var(--primary-icon-colour);
     border-radius: 4px;
